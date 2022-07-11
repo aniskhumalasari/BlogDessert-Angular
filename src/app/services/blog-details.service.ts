@@ -77,16 +77,6 @@ export class BlogDetailsService {
       date: "Kamis, 7 Juli 2022"
     } 
     // {
-    //   id: 7,
-    //   img:"../../../assets/gallery/ft16.jpeg",
-    //   name:"Triple Layer Rice Krispie Brownies",
-    //   keywords:"Brownis, Chocolate",
-    //   ingredients: "",
-    //   instructions: "",
-    //   tag:"jocooks.com",
-    //   date: "Friday, 1 july 2022"
-    // },
-    // {
     //   id: 8,
     //   img:"../../../assets/gallery/ft17.jpeg",
     //   name:"Vegan crêpes filled with chocolate cream ",
