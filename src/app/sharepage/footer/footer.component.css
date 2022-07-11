@@ -1,0 +1,45 @@
+.footer
+{
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    background-color: #F6EEE0;
+    padding: 8px 6px;
+}
+
+.logo
+{
+    width: 160px;
+    height: 45px;
+    padding-bottom: 10px;
+}
+
+h1
+{
+    font-weight: bold;
+    color: #A45C40;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+a{
+    color: #A45C40;
+    text-decoration: none;
+    padding: 0px 5px;
+    font-size: 17px; 
+}
+a:hover
+{
+    color: var(--primary-color);
+}
+i
+{
+    color: var(--secondary-color);
+    padding: 0px 8px;
+}
+
+.copyright p
+{
+    color: var(--secondary-color);
+    font-size: 13px;
+}

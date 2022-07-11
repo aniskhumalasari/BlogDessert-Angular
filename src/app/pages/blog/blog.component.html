@@ -1,0 +1,44 @@
+<div class="main-blue">
+  <div class="container">
+    <img src="../assets/img/all.png" class="title">
+    <div class="category text-center mb-5">
+      <h1>Kategori</h1>
+      <!-- <img src="../assets/img/kategori.png" class="kategori"><br/> -->
+      <button type="button" class="btn btn-lg">Pastry</button>
+      <button type="button" class="btn btn-lg">Chocolate</button>
+      <button type="button" class="btn btn-lg">Custard and Pudding</button>
+      <button type="button" class="btn btn-lg">Cake</button><br/>
+      <button type="button" class="btn btn-lg">Pai</button>
+      <button type="button" class="btn btn-lg">Cookies</button>
+      <button type="button" class="btn btn-lg">Ice Cream</button>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-4 mb-3 mt-3" *ngFor="let dd of dessertData">
+        <div class="card">
+          <div class="dessertbox">
+            <img src="{{dd.img}}">
+            <h2>{{dd.name}}</h2>
+            <h3>Keywords: {{dd.keywords}}</h3>
+          </div>
+          <a [routerLink]="['/blog',dd.id]" class="viewmorebtn" >Lihat lebih banyak <i class="bi bi-arrow-right-circle"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="favorite-text">
+    <img src="../assets/img/fav.png">
+  </div>
+  
+  <div class="row">
+    <div class="col-lg-3 mt-3" *ngFor="let dd of dessertData; index as i">
+      <div class="favorite" *ngIf="i<=3">
+        <a  [routerLink]="['/blog',dd.id]"><img src="{{dd.img}}"></a>
+        <a  [routerLink]="['/blog',dd.id]"><h2>{{dd.name}}</h2></a>
+      </div>
+    </div>
+  </div>
+</div>

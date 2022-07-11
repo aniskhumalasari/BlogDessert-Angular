@@ -1,0 +1,73 @@
+/* .main-about
+{
+    background-color: #FDF4E3;
+} */
+
+.main-about .aboutme img
+{
+    width: 200px;
+    height: 120px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-top: 35px;
+    padding-top: 65px;
+   
+}
+
+.txt-about h4
+{
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+
+.txt-about p
+{
+    padding-right: 15px;
+    padding-left: 30px;
+    text-align: justify
+}
+
+.img-about img
+{
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.main-tips .mtv img
+{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 40px;
+    display:block;
+}
+
+.img-random img
+{
+   width: 100%;
+   max-width: 200px;
+   height: auto;
+}
+
+.bio h3
+{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio p
+{
+    color:#708090;
+}
+
+

@@ -1,0 +1,35 @@
+.banner
+{
+    background-image: url('../../../assets/img/bg.jpg');
+    height: 840px;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+.banner img
+{
+
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    padding: 5px;
+    padding-left: 65px;
+    padding-top: 70px;
+    padding-right: 65px;
+    /* position: absolute;
+    overflow: hidden; */
+}
+
+.see a
+{
+    color: var(--cream-color);
+    text-align: left;
+    padding-left: 78px;
+    padding-top: 5px;
+}
+
+.see a:hover
+{
+    color: wheat;
+}

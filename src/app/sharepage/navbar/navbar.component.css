@@ -1,0 +1,19 @@
+.main-nav
+{
+    background-color: #F6EEE0;
+}
+
+.navbar-brand img 
+{
+  width: 200px;
+}
+
+.main-nav .navbar-nav .nav-link
+{
+    color: var(--secondary-color);
+}
+
+.main-nav .navbar-nav .nav-link.active-link
+{
+    color: var(--primary-color);
+}

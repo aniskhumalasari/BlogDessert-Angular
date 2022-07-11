@@ -1,0 +1,202 @@
+.main-detail
+{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.detail-dessert img
+{
+    width: 100%;
+    height: 500px;
+    float: left;
+    object-fit: cover;
+    border-radius: 5px;
+    padding-top: 65px;
+}
+
+.detail-dessert .header 
+{
+    margin: 20px;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+i
+{
+    color: var(--secondary-color);
+    text-align: right;
+    margin-top: 15px;
+    padding-right: 10px;
+}
+
+.detail-dessert p
+{
+    text-align: justify;
+    padding: 40px;
+    padding-top: 15px;
+}
+
+.detail-dessert h1{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.detail-dessert h2
+{
+    font-size: 35px;
+    padding-left: 15px;
+    font-weight: bold;
+    color: 	grey;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 65px;
+}
+
+.detail-dessert h3 
+{
+    font-size: 16px;
+    margin-top: 3px;
+    padding-left: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.detail-dessert h4
+{
+    font-size: 15px;
+    margin-top: 10px;
+    padding-left: 15px;
+    color: gray;
+    text-align: right;
+    padding-right: 17px;
+    padding-bottom: 20px;
+}
+
+.row h1
+{
+    padding-left: 20px;
+}
+
+hr
+{
+    width: 100%;
+    color: var(--secondary-color);
+    border: 1px solid;
+}
+
+.ing .highlight
+{
+    font-size: 17px;
+    margin-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.ins .highlight
+{
+    font-size: 17px;
+    margin-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.share h5
+{
+    font-weight: bold;
+    padding-bottom: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.share i
+{
+    font-size: xx-large;
+    margin: 6px;
+}
+
+.comment h5
+{
+    color: var(--secondary-color);
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.comment .form-check-label
+{
+    font-size: smaller;
+}
+
+.comment .form-check-label span
+{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.btn
+{
+    background-color: var(--secondary-color);
+    color: var(--cream-color);
+}
+.btn:hover
+{
+    background-color: #7A3E26;
+    color: #fff;
+}
+
+.rekomendasi-dessert h5
+{
+    color: var(--secondary-color);
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.rekomendasi-dessert .card
+{
+    margin: 25px;
+    padding: 40px;
+}
+
+.rekomendasi .rekomendasi-des img
+{
+    width: 100%;
+    height: 260px;
+    border-radius: 10px;
+    object-fit: cover;
+    padding-top: 30px;
+}
+
+.rekomendasi .rekomendasi-des img:hover
+{
+    filter: brightness(85%);
+}
+
+.rekomendasi-des a
+{
+    text-decoration: none;
+    padding: 5;
+}
+
+.rekomendasi-des h2
+{
+    font-size: 18px;
+    padding: 2px;
+    margin: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    float: left;
+
+}
+.rekomendasi-des h2:hover
+{
+    color: #A45C40;
+}
+
+
