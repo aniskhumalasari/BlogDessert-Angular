@@ -1,16 +1,20 @@
 import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class BlogDetailsService {
 
+  public search =  new BehaviorSubject<string>("");
+
   constructor() { }
 
   // dessertdetail
-
+ 
   dessertDetails = [
     {
+      category:"Chocolate, Ice Cream",
       id:1,
       img:"../../../assets/gallery/ft15.png",
       name:"Vegan Chocolate Popsicles",
@@ -22,6 +26,7 @@ export class BlogDetailsService {
       date: "Rabu, 6 Juli 2022"
     },
     {
+      category:"Chocolate, Cake",
       id:2,
       img:"../../../assets/gallery/ft14.jpeg",
       name:"Molten Chocolate Lave Cakes",
@@ -33,6 +38,7 @@ export class BlogDetailsService {
       date: "Rabu, 6 Juli 2022"
     },
     {
+      category:"Pastry",
       id: 3,
       img:"../../../assets/gallery/ft4.jpeg",
       name:"Macaroon",
@@ -44,6 +50,7 @@ export class BlogDetailsService {
       date: "Kamis, 7 Juli 2022"
     },
     {
+      category:"Cake, Pastry",
       id: 4,
       img:"../../../assets/gallery/ft2.png",
       name:"Blackberry Lavender Chocolate Cupcakes",
@@ -55,6 +62,7 @@ export class BlogDetailsService {
       date: "Kamis, 7 Juli 2022"
     },
     {
+      category:"Chocolate, Cake",
       id: 5,
       img:"../../../assets/gallery/ft13.png",
       name:"Grain-Free Chocolate Rasberrys Cake",
@@ -66,6 +74,7 @@ export class BlogDetailsService {
       date: "Kamis, 7 Juli 2022"
     },
     {
+      category: "Pancakes",
       id: 6,
       img:"../../../assets/gallery/ft3.jpeg",
       name:"Blueberry Pancakes with spelt flour",

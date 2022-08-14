@@ -11,6 +11,10 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { BlogpageComponent } from './pages/blogpage/blogpage.component';
+import { ShareButtonsModule } from 'ngx-sharebuttons/buttons';
+import { ShareIconsModule } from 'ngx-sharebuttons/icons';
+import { FilterPipe } from './shared/filter.pipe';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,10 +27,17 @@ import { BlogpageComponent } from './pages/blogpage/blogpage.component';
     ContactComponent,
     BlogComponent,
     BlogpageComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    ShareButtonsModule.withConfig({
+      debug:true
+    }),
+    ShareIconsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

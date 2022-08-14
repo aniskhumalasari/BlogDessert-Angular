@@ -32,10 +32,15 @@ a:hover
 {
     color: var(--primary-color);
 }
+
 i
 {
     color: var(--secondary-color);
     padding: 0px 8px;
+}
+i:hover
+{
+    color: brown;
 }
 
 .copyright p
